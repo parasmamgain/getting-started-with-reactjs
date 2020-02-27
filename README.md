@@ -1,6 +1,9 @@
 # getting-started-with-reactjs
 this repo maintains the code-base for getting started with reactJs
 
+
+Its a javascript library to create a single page web application. 
+
 Some good to know pre-requisites before learning React JS are as follows:
 1. Javascript
 2. CSS + SCSS
@@ -55,5 +58,43 @@ In order for you to use ReactJs, you would require NPM and Nodejs installed.
   4. and execute `npm start`
   5. your default browser will now pop up with a page, If not then open your browser and open `localhost:3000` and you should now be able to see the default react app running.
 
-      -- development we use - - JIT : just in time compiler
-      -- production  we use - - AOT : ahead of time compiler
+      -- development we use --> JIT : just in time compiler 
+
+      -- production  we use --> AOT : ahead of time compiler 
+
+
+  #### Redux:
+cd day3/carbonone
+
+  Redux depends on two parameters names as reducers and actions... reducers are the states that get varied based on the actions defined.
+  to get started with reduc installing the following packages
+  -- npm install redux
+  -- npm install react-redux
+
+  #### using reactjs and carbondesign together
+  create a new project
+  $ create-react-app carbonone
+cd day3/carbonone
+Install the following
+1. npm install carbon-components-react
+2. npm install carbon-components
+3. npm install carbon-icons
+4. npm install @carbon/grid
+5. npm install node-sass
+
+
+- once these are installed rename the file index.css to index.scss and update its reference in the index.js
+
+- modify the index.scss to the file as uploaded in the github repo under the folder day3/carbonone
+`npm install carbon-components-react
+npm install carbon-components 
+npm install carbon-icons
+npm install @carbon/grid
+npm install node-sass 
+Rename the provided index.css file to index.scss
+Inside of index.scss, import for the styles from carbon-components. 
+@import '~carbon-components/scss/globals/scss/styles.scss';
+Update our index.js file to import index.scss instead of index.css
+index.js
+import './index.scss';
+Using a Carbon component
