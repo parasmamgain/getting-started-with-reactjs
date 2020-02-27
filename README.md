@@ -71,10 +71,13 @@ cd day3/carbonone
   -- npm install redux
   -- npm install react-redux
 
-  #### using reactjs and carbondesign together
+  #### Using reactjs and carbondesign together
+
   create a new project
-  $ create-react-app carbonone
-cd day3/carbonone
+
+  `$ create-react-app carbonone`
+
+  `cd day3/carbonone`
 Install the following
 1. npm install carbon-components-react
 2. npm install carbon-components
